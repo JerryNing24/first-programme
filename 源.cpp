@@ -2,6 +2,73 @@
 #include <stdio.h>
 #include <string.h>
 
+int main()
+{
+	double d;
+	d = 3.141592653;
+	printf("jingquedaoxiaoshudianhoujiuweishi:%11.9f\n",d);
+	return 0;
+}
+
+
+//int main()
+//{
+//	int day = 0;
+//	scanf("%d", &day);
+//	switch (day)
+//	{
+//	case 1:
+//		printf("星期一\n");
+//		break;
+//	case 2:
+//		printf("星期二\n");
+//		break;
+//	case 3:
+//		printf("星期三\n");
+//		break;
+//	case 4:
+//		printf("星期四\n");
+//		break;
+//	case 5:
+//		printf("星期五\n");
+//		break;
+//	case 6:
+//		printf("星期六\n");
+//		break;
+//	case 7:
+//		printf("星期七\n");
+//		break;
+//	default:
+//		printf("输入错误\n");
+//
+//
+//
+//	}
+//	return 0;
+
+
+//int main()
+//{
+//	int a = 0;
+//	if (a < 100)
+//	{
+//		if(a%2=1)
+//			printf("a%d")
+//	}
+	//int age = 80;
+	//if (age < 28)
+	//	printf("未成年\n");
+	//else if (age >= 29 && age < 39)
+	//	printf("中年\n");
+	//else
+	//	printf("老年\n");
+	//int age = 10;
+	//if (age < 18)
+	//	printf("未成年\n");
+	//else
+	//	printf("成年\n");
+//	return 0;
+//}
 //int main()
 //{
 //	int arr[10] = { 1,2,3,4,5,6,7,8,9,10 };
